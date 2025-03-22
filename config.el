@@ -78,3 +78,4 @@
 ;; Reload files when they change externally
 (global-auto-revert-mode t)
 (doom-big-font-mode)
+(setq persp-emacsclient-init-frame-behaviour-override "main")
