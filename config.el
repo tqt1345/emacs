@@ -80,3 +80,5 @@
 (doom-big-font-mode)
 (setq persp-emacsclient-init-frame-behaviour-override "main")
 (setq bookmark-save-flag 1)
+(setq-default org-display-custom-times t)
+(setq org-time-stamp-custom-formats '("<%a %b %e %Y>" . "<%a %b %e %Y %H:%M>"))
