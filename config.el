@@ -77,8 +77,16 @@
 
 ;; Reload files when they change externally
 (global-auto-revert-mode t)
+
+;; Enable big mode font by default
 (doom-big-font-mode)
+
+;; stop making new tabs on every boot
 (setq persp-emacsclient-init-frame-behaviour-override "main")
+
+;; Bookmarks persist between sessions
 (setq bookmark-save-flag 1)
+
+;; More readable date format for org mode
 (setq-default org-display-custom-times t)
 (setq org-time-stamp-custom-formats '("<%a %b %e %Y>" . "<%a %b %e %Y %H:%M>"))
