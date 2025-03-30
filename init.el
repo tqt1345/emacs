@@ -40,7 +40,7 @@
        ;;minimap           ; show a map of the code on the side
        modeline          ; snazzy, Atom-inspired modeline, plus API
        ;;nav-flash         ; blink cursor line after big motions
-       ;;neotree           ; a project drawer, like NERDTree for vim
+       neotree           ; a project drawer, like NERDTree for vim
        ophints           ; highlight the region an operation acts on
        (popup +defaults)   ; tame sudden yet inevitable temporary windows
        ;;tabs              ; a tab bar for Emacs
@@ -100,7 +100,7 @@
        magit             ; a git porcelain for Emacs
        ;;make              ; run make tasks from Emacs
        ;;pass              ; password manager for nerds
-       ;;pdf               ; pdf enhancements
+       pdf               ; pdf enhancements
        ;;prodigy           ; FIXME managing external services & code builders
        ;;terraform         ; infrastructure as code
        ;;tmux              ; an API for interacting with tmux
@@ -134,7 +134,7 @@
        ;;fsharp            ; ML stands for Microsoft's Language
        ;;fstar             ; (dependent) types and (monadic) effects and Z3
        ;;gdscript          ; the language you waited for
-       (go +lsp)         ; the hipster dialect
+       (go +lsp +tree-sitter)         ; the hipster dialect
        ;;(graphql +lsp)    ; Give queries a REST
        ;;(haskell +lsp)    ; a language that's lazier than I am
        ;;hy                ; readability of scheme w/ speed of python
@@ -157,7 +157,7 @@
        ;;plantuml          ; diagrams for confusing people more
        ;;graphviz          ; diagrams for confusing yourself even more
        ;;purescript        ; javascript, but functional
-       (python +lsp +pyright)            ; beautiful is better than ugly
+       (python +lsp +pyright +tree-sitter +pyenv)            ; beautiful is better than ugly
        ;;qt                ; the 'cutest' gui framework ever
        ;;racket            ; a DSL for DSLs
        ;;raku              ; the artist formerly known as perl6
