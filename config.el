@@ -90,3 +90,7 @@
 ;; More readable date format for org mode
 (setq-default org-display-custom-times t)
 (setq org-time-stamp-custom-formats '("<%a %b %e %Y>" . "<%a %b %e %Y %H:%M>"))
+
+;; Set all org mode headings to folded by default
+(after! org
+  (setq org-startup-folded t))
